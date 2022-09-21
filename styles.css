@@ -1,0 +1,14 @@
+html {
+    background: url(./images/bg.jpeg)no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.container {
+    background: #fff ;
+    display: flexbox;
+    margin-left: auto;
+}
+
+.form-column {
+    display: flexbox;
+}
