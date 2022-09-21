@@ -2,13 +2,60 @@ html {
     background: url(./images/bg.jpeg)no-repeat center center fixed; 
     background-size: cover;
 }
+body {
+    margin: 0;
+      display: flex;
+      font-family: 'Space Grotesk', sans-serif;
+   font-size: 18px;
+}
 
+
+.container-logo, .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-logo {
+    width: 48%;
+    margin-top: 20%;
+}
+
+.container-logo h1 {
+    background: rgba(0,0,0,0.50);
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
 .container {
+    height: 100vh;
     background: #fff ;
-    display: flexbox;
-    margin-left: auto;
+}
+.container > p{
+    padding: 10px 40px 0;
+}
+.container > p:first-child{
+    padding: 40px 40px 0;
+}
+.container > button{
+    margin: 0 40px;
+    width: 120px;
+}
+form {
+    display: flex;
+    box-shadow: 0 0px 6px #ddd;
+    padding: 30px 40px;
+    margin: 20px 0;
+    font-size: 0.8em;
 }
 
 .form-column {
-    display: flexbox;
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+    flex-basis: 50%;
+}
+
+input {
+    margin-bottom: 20px;
+    flex-basis: 50%;
 }
