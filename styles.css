@@ -23,8 +23,9 @@ body {
     padding: 10px;
     color: #fff;
     text-align: center;
-    text-shadow: 1px 1px 1px #666;
-    letter-spacing: 5px;
+    text-shadow: 1px 1px 3px #111;
+    letter-spacing: 1px;
+    box-shadow: 1px 0px 2px #111;
 }
 
 .container {
