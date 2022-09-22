@@ -1,9 +1,9 @@
 body {
     margin: 0;
     display: flex;
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 20px;
-    color: #222;
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    color: #333;
 }
 
 .container-logo, .container {
@@ -31,7 +31,7 @@ body {
 .container {
     flex: 2 60%;
     height: 100vh;
-    background: #fff;
+    background: linear-gradient(plum, white, plum);
     box-shadow: 1px 0px 4px #000;
 }
 
@@ -45,13 +45,13 @@ body {
 
 .container > button {
     margin: 0 40px;
-    width: 160px;
+    width: 180px;
     background: purple;
     padding: 10px;
     border: 1px solid plum;
     border-radius: 3px;
     color: #fff;
-    font-family: 'Space Grotesk';
+    font-family: 'Rubik';
     font-size: 0.9em;
 }
 
@@ -72,10 +72,11 @@ a:hover{
 
 form {
     display: flex;
-    box-shadow: 0 0px 6px #ddd;
+    box-shadow: 0 0px 6px #ccc;
     padding: 30px 40px;
     margin: 20px 0;
     font-size: 0.95em;
+    background-color: #fff;
 }
 
 .form-column {
