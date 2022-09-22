@@ -44,7 +44,7 @@ body {
     padding: 40px 40px 0;
 }
 
-.container > button {
+ button {
     margin: 0 40px;
     width: 180px;
     background: purple;
@@ -56,10 +56,10 @@ body {
     font-size: 0.9em;
 }
 
-.container > button:hover {
+button:hover {
     background: plum;
     border: 1px solid purple;
-    transition: 1.5s;
+    transition: 300ms;
 }
 
 a {
@@ -71,8 +71,11 @@ a:hover{
     color: rgb(65, 2, 65);
 }
 
-form {
+.input-container{
     display: flex;
+}
+
+form {
     box-shadow: 0 0px 6px #ccc;
     padding: 30px 40px;
     margin: 20px 0;
