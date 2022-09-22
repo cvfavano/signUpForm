@@ -106,3 +106,26 @@ input.error {
     font-size: 0.80em;
     margin-top: 0;
 }
+
+@media screen and (max-width:780px) {
+   body {
+        display: block;
+   } 
+   .container-logo h1 {
+        margin-bottom: 60px;
+   }
+   .form-column {
+        margin-left: 15px;
+   }
+   form {
+        margin-left: 0;
+        padding-left: 0;
+   }
+   .container > p,
+   .container > p:first-child {
+        padding-left: 15px;
+    }
+    .container > button {
+        margin-left: 15px;
+    }
+}
