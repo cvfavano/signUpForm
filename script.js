@@ -7,6 +7,7 @@ function checkPassword(){
     const passConfirm = document.querySelector('#confirmPassword').value; 
     if(pass != passConfirm) {
         document.querySelector('.error-message').style.visibility = 'visible';
+        //input.error
     }
     if(pass == passConfirm) {
         document.querySelector('.error-message').style.visibility = 'hidden';

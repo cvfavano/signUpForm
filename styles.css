@@ -45,7 +45,6 @@ body {
 }
 
  button {
-    margin: 0 40px;
     width: 180px;
     background: purple;
     padding: 10px;
@@ -73,6 +72,7 @@ a:hover{
 
 .input-container{
     display: flex;
+    column-gap: 30px;
 }
 
 form {
@@ -86,7 +86,6 @@ form {
 .form-column {
     display: flex;
     flex-direction: column;
-    margin-left: 35px;
     flex-basis: 50%;
 }
 
@@ -112,7 +111,7 @@ input.error {
 .error-message {
     font-size: small;
     color: purple;
-
+    margin: 0;
     visibility: hidden;
 }
 
@@ -136,5 +135,12 @@ input.error {
     }
     .container > button {
         margin-left: 15px;
+    }
+    .container {
+        padding-bottom: 40px;
+    }
+    .input-container{
+        display: flex;
+        column-gap: 15px;
     }
 }
