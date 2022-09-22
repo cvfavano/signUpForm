@@ -7,7 +7,9 @@
     <title>Sign Up Form</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="container-logo">
@@ -17,7 +19,7 @@
         <p>Topping soufflé muffin chocolate cake bear claw biscuit cotton candy jelly beans. Toffee dragée pudding tiramisu candy canes sweet chupa chups carrot cake muffin. Liquorice pastry sugar plum muffin soufflé cheesecake macaroon jelly-o. Cake bonbon soufflé brownie cake tootsie roll. </p>
         <p>Join us!</p>
         <div class="form-container">
-            <form action="#" method="post">
+            <form action="#" method="post" id="signUpForm">
                 <div class="input-container">
                 <div class="form-column">
                     <label for="fname">First name</label>
@@ -28,6 +30,7 @@
 
                     <label for="password">Password</label>
                     <input type="password" id="password" name="password" required>
+                    <p class="error-message">Passwords do not match</p>
                 </div>
                 <div class="form-column">
                     <label for="lname">Last name</label>
@@ -43,6 +46,7 @@
 
                     <label for="confirmPassword">Confirm Password</label>
                     <input type="password" id="confirmPassword" name="confirmPassword"  required >
+                    <p class="error-message">Passwords do not match</p>
                 </div>
             </div>
                <button class="submit">Create Account</button>

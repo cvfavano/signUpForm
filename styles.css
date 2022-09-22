@@ -109,6 +109,12 @@ input.error {
     font-size: 0.80em;
     margin-top: 0;
 }
+.error-message {
+    font-size: small;
+    color: purple;
+
+    visibility: hidden;
+}
 
 @media screen and (max-width:780px) {
    body {
