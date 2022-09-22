@@ -1,9 +1,8 @@
 body {
-    background: url(./images/bg.jpg) no-repeat -550px center fixed; 
-   background-size: auto;
+    
 }
 body {
-    margin: 0;ß
+    margin: 0;
       display: flex;
       font-family: 'Space Grotesk', sans-serif;
    font-size: 20px;
@@ -18,15 +17,18 @@ body {
 
 .container-logo {
     flex: 1 2 40%;
-    margin-top: 20%;
-    
+    padding-top: 20%;
+    background: url(./images/bg.jpg)  left center fixed; 
+   background-size: auto;
 }
 
 .container-logo h1 {
-    background: rgba(0,0,0,0.50);
+    background: rgba(227, 130, 211, 0.7);
     padding: 10px;
     color: #fff;
     text-align: center;
+    text-shadow: 1px 1px 1px #666;
+    letter-spacing: 5px;
 }
 .container {
     flex: 2 60%;
@@ -61,4 +63,13 @@ form {
 input {
     margin-bottom: 20px;
     flex-basis: 50%;
+}
+
+input:focus,
+input:focus-visible {
+    outline-color: plum;
+}
+
+input.error {
+    outline-color: palevioletred;
 }
