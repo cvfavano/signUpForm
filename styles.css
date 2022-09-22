@@ -20,12 +20,13 @@ body {
 
 .container-logo h1 {
     background: rgba(227, 130, 211, 0.7);
+    width: 75%;
+    margin: 0 auto;
     padding: 10px;
     color: #fff;
     text-align: center;
     text-shadow: 1px 1px 3px #111;
     letter-spacing: 1px;
-    box-shadow: 1px 0px 2px #111;
 }
 
 .container {
@@ -87,7 +88,7 @@ form {
 }
 
 input {
-    margin-bottom: 20px;
+    margin: 8px 0 25px;
     flex-basis: 50%;
     font-size: 1em;
 }
