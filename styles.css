@@ -1,9 +1,9 @@
 body {
     margin: 0;
-      display: flex;
-      font-family: 'Space Grotesk', sans-serif;
-   font-size: 20px;
-   color: #222;
+    display: flex;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+    color: #222;
 }
 
 .container-logo, .container {
@@ -14,7 +14,7 @@ body {
 .container-logo {
     flex: 1 2 40%;
     padding-top: 20%;
-    background: url(./images/bg.jpg)  left center fixed; 
+    background: url(./images/bg.jpg)  top left fixed; 
     background-size: auto;
 }
 
