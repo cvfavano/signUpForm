@@ -1,25 +1,21 @@
 body {
-    
-}
-body {
     margin: 0;
       display: flex;
       font-family: 'Space Grotesk', sans-serif;
    font-size: 20px;
+   color: #222;
 }
-
 
 .container-logo, .container {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;    
 }
 
 .container-logo {
     flex: 1 2 40%;
     padding-top: 20%;
     background: url(./images/bg.jpg)  left center fixed; 
-   background-size: auto;
+    background-size: auto;
 }
 
 .container-logo h1 {
@@ -30,27 +26,55 @@ body {
     text-shadow: 1px 1px 1px #666;
     letter-spacing: 5px;
 }
+
 .container {
     flex: 2 60%;
     height: 100vh;
-    background: #fff ;
+    background: #fff;
+    box-shadow: 1px 0px 4px #000;
 }
+
 .container > p{
     padding: 10px 40px 0;
 }
+
 .container > p:first-child{
     padding: 40px 40px 0;
 }
-.container > button{
+
+.container > button {
     margin: 0 40px;
-    width: 120px;
+    width: 160px;
+    background: purple;
+    padding: 10px;
+    border: 1px solid plum;
+    border-radius: 3px;
+    color: #fff;
+    font-family: 'Space Grotesk';
+    font-size: 0.9em;
 }
+
+.container > button:hover {
+    background: plum;
+    border: 1px solid purple;
+    transition: 1.5s;
+}
+
+a {
+    color: purple;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(65, 2, 65);
+}
+
 form {
     display: flex;
     box-shadow: 0 0px 6px #ddd;
     padding: 30px 40px;
     margin: 20px 0;
-    font-size: 0.8em;
+    font-size: 0.95em;
 }
 
 .form-column {
@@ -63,6 +87,7 @@ form {
 input {
     margin-bottom: 20px;
     flex-basis: 50%;
+    font-size: 1em;
 }
 
 input:focus,
@@ -72,4 +97,9 @@ input:focus-visible {
 
 input.error {
     outline-color: palevioletred;
+}
+
+.small {
+    font-size: 0.80em;
+    margin-top: 0;
 }
