@@ -5,10 +5,12 @@ const checkPassword2 = document.querySelector('#confirmPassword');
 function checkPassword(){
     const pass = document.querySelector('#password').value; 
     const passConfirm = document.querySelector('#confirmPassword').value; 
-    if(pass != passConfirm) {
+
+    if(pass != null && passConfirm != null && pass != passConfirm) {
         document.querySelector('.error-message').style.visibility = 'visible';
         //input.error
     }
+
     if(pass == passConfirm) {
         document.querySelector('.error-message').style.visibility = 'hidden';
     }

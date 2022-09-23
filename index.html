@@ -21,35 +21,47 @@
         <div class="form-container">
             <form action="#" method="post" id="signUpForm">
                 <div class="input-container">
-                <div class="form-column">
-                    <label for="fname">First name</label>
-                    <input type="text" id="fname" name="fname" required>
-                    
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email"  required>
-
-                    <label for="password">Password</label>
-                    <input type="password" id="password" name="password" required>
-                    <p class="error-message">Passwords do not match</p>
+                <div class="form-group">
+                    <div>
+                        <label for="fname">First name</label><br>
+                        <input type="text" id="fname" name="fname" required>
+                    </div>
+                    <div>
+                        <label for="lname">Last name</label><br>
+                        <input type="text" id="lname" name="lname"  required>
+                    </div>
                 </div>
-                <div class="form-column">
-                    <label for="lname">Last name</label>
-                    <input type="text" id="lname" name="lname"  required>
-
-                    <label for="phone">Phone Number</label>
-
+                <div class="form-group">
+                    <div>
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" name="email"  required>
+                    
+                    
+                </div>
+                    <div>
+                        <label for="phone">Phone Number</label><br>
                     <input type="tel" id="phone" name="phone"
                     pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
                     placeholder="714-534-3452"
                     required>
+                    </div>
+                   
+                </div>
+                <div class="form-group">
+                    <div>
+                     <label for="password">Password</label><br>
+                    <input type="password" id="password" name="password" required>
+                    <p class="error-message">Passwords do not match</p>
+                </div>
+                <div>
 
 
-                    <label for="confirmPassword">Confirm Password</label>
+                    <label for="confirmPassword">Confirm Password</label><br>
                     <input type="password" id="confirmPassword" name="confirmPassword"  required >
                     <p class="error-message">Passwords do not match</p>
                 </div>
             </div>
-               <button class="submit">Create Account</button>
+                <button class="submit">Create Account</button>
             </form>
             </div>
             
