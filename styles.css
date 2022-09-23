@@ -46,6 +46,7 @@ body {
 
  button {
     width: 180px;
+    margin-left: 15px;
     background: purple;
     padding: 10px;
     border: 1px solid plum;
@@ -77,7 +78,7 @@ a:hover{
 
 form {
     box-shadow: 0 0px 6px #ccc;
-    padding: 30px 40px;
+    padding: 30px 25px;
     margin: 20px 0;
     font-size: 0.95em;
     background-color: #fff;
@@ -109,6 +110,7 @@ input.error {
 
 .small {
     font-size: 0.80em;
+    margin-left: 40px;
     margin-top: 0;
 }
 .error-message {
